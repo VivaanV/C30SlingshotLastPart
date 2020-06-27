@@ -41,7 +41,6 @@ function setup() {
    box13 = new Box(620,450,50,50);
    box14= new Box(670,450,50,50);
    box15 = new Box(645,350,50,50);
-
    sling = new SlingShot(ball.body, {x:120, y:480});
   
 }
@@ -77,8 +76,11 @@ function draw() {
   box11.display();
   box12.display();
   box13.display();
-  box14.display();
+  box14.display(); 
   box15.display();
+  
+
+
 
   box1.score();
   box2.score();
@@ -95,6 +97,7 @@ function draw() {
   box13.score();
   box14.score();
   box15.score();
+  
 
   sling.display();
 }
